@@ -60,7 +60,7 @@ There will be two URLs popping up to open in your browser: one is the direct vie
 simulated environment. The other is VNC and only useful for some exercises, follow the instructions
 in the notebooks to see if you need to access VNC.
 
-This simulation test is just that, a test. Don't trust it fully. If you want a more accurate 
+This simulation test is just that, a test. Do not trust it fully. If you want a more accurate 
 metric of performance, continue reading to the `Perform local evaluation` section below.
 
 
@@ -108,7 +108,7 @@ zuper_commons.types.exceptions.ZException: Credentials for registry docker.io no
 available:
 ```
 
-you need to log into docker using `dts`. Use this command:
+you need to log into Docker using `dts`. Use this command:
 
 ```
 dts challenges config --docker-username <USERNAME> --docker-password <PASSWORD>
@@ -125,7 +125,7 @@ However, we try to evaluate all submissions.
 
 We hope this works and we don't need more stringent policies.
 
-You can help us in the following ways.
+You can help us in the following ways:
 
 
 ### Retire obsolete submissions
@@ -136,11 +136,9 @@ You can do this through [the Duckietown Challenges website](https://challenges.d
 
 ### Do local evaluations
 
-# TODO: this is not supported right now as the `submission.yaml` file is stored in the recipe.
+We suggest you evaluate your work using:
 
-We suggest you evaluate your work using the command
-
-    dts challenges evaluate
+    dts code evaluate
 
 This should take a few minutes. This is not supposed to be an interactive process: just let it run,
 and when you return, you will find the output in a folder, including videos, and trajectories,

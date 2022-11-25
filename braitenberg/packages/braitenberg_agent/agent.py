@@ -22,7 +22,8 @@ from solution.connections import get_motor_left_matrix, get_motor_right_matrix
 from solution.preprocessing import preprocess
 
 
-# TODO edit this Config class ! Play with different gain and const values
+# Play with different gain and const values for fine tuning. You can leave default values to start with
+
 @dataclass
 class BraitenbergAgentConfig:
     gain: float = 0.9
